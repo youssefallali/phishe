@@ -47,10 +47,6 @@
 
 ```
 
-### Pip
- - `pip3 install maxphisher` [For Termux]
- - `sudo pip3 install phishe` [For Linux]
- - `phishe`
 
 ### Docker
 
