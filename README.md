@@ -2,17 +2,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
+  <img src="https://camo.githubusercontent.com/5601a2b93c2e30f778dc2e4178da964cf682de8da7b2f22a5d27ec50bf95cbf3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f77617463686572732f4b6173526f756472612f4d6178506869736865723f636f6c6f723d6379616e267374796c653d666f722d7468652d626164676526636f6c6f723d707572706c65">
+  <img src="https://camo.githubusercontent.com/5def6d15dc01da804f574c1da1b99d93199a76fb07f9a48407c3b747d9bba84a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4b6173526f756472612f4d6178506869736865723f7374796c653d666f722d7468652d626164676526636f6c6f723d6f72616e6765">
+  <img src="https://camo.githubusercontent.com/6e8c61de9d25be0310a2ad9fdf852dcc8b25a4bc4335d8a62c89aada39e317ac/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f4b6173526f756472612f4d6178506869736865723f7374796c653d666f722d7468652d626164676526636f6c6f723d626c7565">
+ 
 <br>
 <br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-Youssefallali-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+  <img src="https://img.shields.io/badge/Made%20in-morocco-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
 </p>
 
@@ -36,7 +34,7 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
+ - ```git clone https://github.com/youssefallali/emperor```
 
 ##### Enter the directory
  - ```cd MaxPhisher```
@@ -47,10 +45,6 @@
 ##### Run the tool
  - ```python3 maxphisher.py```
 
-#### Or, directly run
-```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/MaxPhisher.py && python3 maxphisher.py
-
 ```
 
 ### Pip
@@ -60,8 +54,8 @@ wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/MaxPhisher.py &
 
 ### Docker
 
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
+ - `sudo docker pull youssefallali/emperor`
+ - `sudo docker run --rm -it youssefallali/emperor`
 
 
 ### Support
@@ -78,7 +72,14 @@ BSD        | Never tested
 #### Options
 
 ```
-usage: maxphisher.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
+usage: Phishe.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
+                     [-T TUNNELER] [-r REGION] [-S SUBDOMAIN]
+                     [-d DIRECTORY] [-f FEST] [-i YTID] [-u URL]
+                     [-s DURATION] [-m MODE] [-e TROUBLESHOOT]
+                     [--nokey] [--noupdate]
+
+options:
+  usage: phishe.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
                      [-T TUNNELER] [-r REGION] [-S SUBDOMAIN]
                      [-d DIRECTORY] [-f FEST] [-i YTID] [-u URL]
                      [-s DURATION] [-m MODE] [-e TROUBLESHOOT]
@@ -86,11 +87,11 @@ usage: maxphisher.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
 
 options:
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  MaxPhisher's server port [Default : 8080]
-  -t TYPE, --type TYPE  MaxPhisher's phishing type index [Default :
+  -p PORT, --port PORT  Phishe's server port [Default : 8080]
+  -t TYPE, --type TYPE  Phishe's phishing type index [Default :
                         null]
   -o OPTION, --option OPTION
-                        MaxPhisher's template index [ Default : null ]
+                        Phishe's template index [ Default : null ]
   -T TUNNELER, --tunneler TUNNELER
                         Tunneler to be chosen while url shortening
                         [Default : Cloudflared]
@@ -117,7 +118,6 @@ options:
   --nokey               Use localtunnel without ssh key [Default:
                         False]
   --noupdate            Skip update checking [Default : False]
-```
 
 ### Features:
 
@@ -166,222 +166,12 @@ If not found, php, ssh and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-![MaxPhisher](https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/maxphisher.gif)
 
- 
-## [!] Disclaimer<h1 align="center">Phishe</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
-<br>
-<br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-</p>
-
-
-### [√] Description :
-
-***A python phishing script for login phishing, image phishing, video phishing and many more***
-
-### [+] Installation
-
-##### Install primary dependencies (git, python)
-
- - For Debian (Ubuntu, Kali-Linux, Parrot)
-    - ```sudo apt install git python3 php openssh-client -y```
- - For Arch (Manjaro)
-    - ```sudo pacman -S git python3 php openssh --noconfirm```
- - For Redhat(Fedora)
-    - ```sudo dnf install git python3 php openssh -y```
- - For Termux
-    - ```pkg install git python3 php openssh -y```
-
-##### Clone this repository
-
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
-
-##### Enter the directory
- - ```cd MaxPhisher```
-
-##### Install all modules
- - ```pip3 install -r files/requirements.txt```
-
-##### Run the tool
- - ```python3 maxphisher.py```
-
-#### Or, directly run
-```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/MaxPhisher.py && python3 maxphisher.py
-
-```
-
-### Pip
- - `pip3 install maxphisher` [For Termux]
- - `sudo pip3 install maxphisher` [For Linux]
- - `maxphisher`
-
-### Docker
-
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
-
-
-### Support
-
-OS         | Support Level
------------|--------------
-Linux      | Excellent
-Android    | Excellent
-iPhone     | Alpha (Recommended docker)
-MacOS      | Alpha (Recommended docker)
-Windows    | Unsupported (Use docker/virtual-box/vmware)
-BSD        | Never tested
-
-#### Options
-
-```
-usage: maxphisher.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
-                     [-T TUNNELER] [-r REGION] [-S SUBDOMAIN]
-                     [-d DIRECTORY] [-f FEST] [-i YTID] [-u URL]
-                     [-s DURATION] [-m MODE] [-e TROUBLESHOOT]
-                     [--nokey] [--noupdate]
-
-options:
-  -h, --help            show this help message and exit
-  -p PORT, --port PORT  MaxPhisher's server port [Default : 8080]
-  -t TYPE, --type TYPE  MaxPhisher's phishing type index [Default :
-                        null]
-  -o OPTION, --option OPTION
-                        MaxPhisher's template index [ Default : null ]
-  -T TUNNELER, --tunneler TUNNELER
-                        Tunneler to be chosen while url shortening
-                        [Default : Cloudflared]
-  -r REGION, --region REGION
-                        Region for ngrok and loclx [Default: auto]
-  -S SUBDOMAIN, --subdomain SUBDOMAIN
-                        Subdomain for ngrok and loclx [Pro Account]
-                        (Default: null)
-  -d DIRECTORY, --directory DIRECTORY
-                        Directory where media files will be saved
-                        [Default : /sdcard/Media]
-  -f FEST, --fest FEST  Festival name for fest template [Default:
-                        Birthday]
-  -i YTID, --ytid YTID  Youtube video ID for yttv template [Default :
-                        6hHmkInZkMQ (NASA Video)]
-  -u URL, --url URL     Redirection url for ip-tracking or login
-                        phishing [Default : null]
-  -s DURATION, --duration DURATION
-                        Media duration while capturing [Default :
-                        5000(ms)]
-  -m MODE, --mode MODE  Mode of MaxPhisher [Default: normal]
-  -e TROUBLESHOOT, --troubleshoot TROUBLESHOOT
-                        Troubleshoot a tunneler [Default: null]
-  --nokey               Use localtunnel without ssh key [Default:
-                        False]
-  --noupdate            Skip update checking [Default : False]
-```
-
-### Features:
-
- - Multi platform (Supports most linux)
- - 100+ templates
- - Concurrent 4 tunneling (Ngrok, Cloudflared and LocalXpose, LocalHostRun)
- - OTP Support
- - Credentials mailing
- - Easy to use
- - Possible error diagnoser
- - Built-in masking of URL
- - Custom masking of URL
- - URL Shadowing
- - Portable file (Can be run from any directory)
- - Get IP Address and many other details along with login credentials
-
-
-### Requirements
-
- - `Python(3)`
-   - `requests`
-   - `bs4`
-   - `rich`
- - `PHP`
- - `SSH`
- - 900MB storage
- 
-If not found, php, ssh and python modoules will be installed on first run
-
-#### Tested on
-
- - `Termux`
- - `Ubuntu`
- - `Kali-Linux`
- - `Arch`
- - `Fedora`
- - `Manjaro`
-
-## Usage
-
-1. Run the script
-2. Choose a Website
-3. Wait sometimes for setting up all
-4. Send the generated link to victim
-5. Wait for victim login. As soon as he/she logs in, credentials will be captured
-
-<h1 align="center">Example</h1>
-
-![MaxPhisher](https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/maxphisher.gif)
 
  
 ## [!] Disclaimer
 ***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of MaxPhisher!***
 
-#### Want to show support? Just spread the word and smash the star button
 
-## Credits:
-[PyPhisher](https://github.com/KasRoudra/PyPhisher)
-[CamHacker](https://github.com/KasRoudra/CamHacker)
-[VidPhisher](https://github.com/KasRoudra/VidPhisher)
-[IP-Tracker](https://github.com/KasRoudra/IP-Tracker)
-[Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
-[Seeker](https://github.com/thewhiteh4t/seeker)
 
-## [~] Find Me on :
-
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
-
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
-
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
-
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
-
-***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of MaxPhisher!***
-
-#### Want to show support? Just spread the word and smash the star button
-
-## Credits:
-[PyPhisher](https://github.com/KasRoudra/PyPhisher)
-[CamHacker](https://github.com/KasRoudra/CamHacker)
-[VidPhisher](https://github.com/KasRoudra/VidPhisher)
-[IP-Tracker](https://github.com/KasRoudra/IP-Tracker)
-[Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
-[Seeker](https://github.com/thewhiteh4t/seeker)
-
-## [~] Find Me on :
-
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
-
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
-
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
-
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
 
