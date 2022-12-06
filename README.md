@@ -34,28 +34,28 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/youssefallali/emperor```
+ - ```git clone https://github.com/youssefallali/phishe```
 
 ##### Enter the directory
- - ```cd MaxPhisher```
+ - ```cd Phishe```
 
 ##### Install all modules
  - ```pip3 install -r files/requirements.txt```
 
 ##### Run the tool
- - ```python3 maxphisher.py```
+ - ```python3 phishe.py```
 
 ```
 
 ### Pip
  - `pip3 install maxphisher` [For Termux]
- - `sudo pip3 install maxphisher` [For Linux]
- - `maxphisher`
+ - `sudo pip3 install phishe` [For Linux]
+ - `phishe`
 
 ### Docker
 
- - `sudo docker pull youssefallali/emperor`
- - `sudo docker run --rm -it youssefallali/emperor`
+ - `sudo docker pull youssefallali/phishe`
+ - `sudo docker run --rm -it youssefallali/phishe`
 
 
 ### Support
