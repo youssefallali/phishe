@@ -164,7 +164,7 @@ If not found, php, ssh and python modoules will be installed on first run
 4. Send the generated link to victim
 5. Wait for victim login. As soon as he/she logs in, credentials will be captured
 
-<h1 align="center">Example</h1>
+<h1 align="center">Desclaimer</h1>
 
 
 
